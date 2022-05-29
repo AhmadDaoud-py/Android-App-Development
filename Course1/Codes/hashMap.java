@@ -29,5 +29,6 @@ public class Main
 		    }
 		}
 		System.out.println(mymap.toString());
+		System.out.println("the is was counted "+mymap.get("is")+"times");
 	}
 }
