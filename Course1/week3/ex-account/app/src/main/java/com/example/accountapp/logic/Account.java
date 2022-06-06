@@ -1,6 +1,13 @@
 package com.example.accountapp.logic;
 
+import static androidx.core.util.ObjectsCompat.hash;
+
 import com.example.accountapp.ui.OutputInterface;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+
 
 /**
  * This file defines the Account class.  It provides the basis for a
@@ -23,11 +30,12 @@ public class Account {
      * Name of the account holder.
      */
     private String name;
+    public static int count=3213;
 
     /**
      * Number of the account.
      */
-    private int number;
+    private String number;
 
     /**
      * Current balance in the account.
@@ -41,17 +49,12 @@ public class Account {
         mOut = out;
     }
 
-    public Account(OutputInterface out, int num ) {
+    public Account(OutputInterface out, double initBalance) {
         this(out);
-        number = num;
-
-    }
-
-    public Account(OutputInterface out, int nnum, double initBalance) {
-        this(out, nnum);
         balance = initBalance;
+        number = buildAccNum();
     }
-    public int getNumber(){
+    public String getNumber(){
         return number;
     }
     public String getName() {
@@ -61,6 +64,7 @@ public class Account {
         name = nm;
     }
     public void setBalance(double blnc){
+
         balance = balance;
     }
 
@@ -114,5 +118,14 @@ public class Account {
         else {
             return false ;
         }
+    }
+    Date date = new Date();
+    SimpleDateFormat DateFor = new SimpleDateFormat("yy");
+    String stringDate= DateFor.format(date);
+
+    // Building an account number
+    private String buildAccNum(){
+        count = (count +1 ) %100;
+        return(stringDate+ hash(this.name)+count);
     }
 }

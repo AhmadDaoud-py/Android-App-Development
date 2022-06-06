@@ -70,5 +70,9 @@ public class Logic
 
         acct2.displayBalance();
         acct2.withdrawal(300);
+        mOut.println("======================");
+        mOut.println(acct1.getNumber());
+        mOut.println(acct2.getNumber());
+        mOut.println("======================");
     }
 }
