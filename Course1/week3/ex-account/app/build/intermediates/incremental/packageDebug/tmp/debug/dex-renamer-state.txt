@@ -1,0 +1,7 @@
+#Mon Jun 06 15:39:21 IST 2022
+base.1=D\:\\Courses\\Android Programming\\Course1\\week3\\ex-account\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+path.1=classes.dex
+base.0=D\:\\Courses\\Android Programming\\Course1\\week3\\ex-account\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
