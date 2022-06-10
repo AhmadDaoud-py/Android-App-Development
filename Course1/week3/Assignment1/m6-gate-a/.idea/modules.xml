@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/m6-gate-a.iml" filepath="$PROJECT_DIR$/.idea/modules/m6-gate-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/m6-gate-a.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/m6-gate-a.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/m6-gate-a.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/m6-gate-a.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/m6-gate-a.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/m6-gate-a.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/m6-gate-a.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/m6-gate-a.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
